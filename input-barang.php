@@ -6,7 +6,7 @@ if($_POST['simpan']=="simpan"){
     $harga = $_POST['harga'];
     $jumlah= $_POST['jumlah'];
 
-    $sql = "INSERT INTO produk (namaProduk, keterangan, harga, jumlah) VALUE ('$nama', '$keterangan', '$harga', '$jumlah')";
+    $sql = "INSERT INTO produk (nama_produk, keterangan, harga, jumlah) VALUE ('$nama', '$keterangan', '$harga', '$jumlah')";
     $query = mysqli_query($mysqli, $sql);
 
  
