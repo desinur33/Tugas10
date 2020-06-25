@@ -11,7 +11,7 @@ if(isset($_POST['update'])){
     $jumlah = $_POST['jumlah'];
     $harga = $_POST['harga'];
 
-    $sql = "UPDATE produk SET namaProduk='$nama', keterangan='$keterangan', jumlah='$jumlah', harga='$harga' WHERE id_produk=$id";
+    $sql = "UPDATE produk SET nama_produk='$nama', keterangan='$keterangan', jumlah='$jumlah', harga='$harga' WHERE id_produk=$id";
     $query = mysqli_query($mysqli, $sql);
 
 
