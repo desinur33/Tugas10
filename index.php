@@ -46,7 +46,7 @@
         while($barang = mysqli_fetch_array($query)){
             echo "<tr>";
 
-            echo "<td>".$barang['namaProduk']."</td>";
+            echo "<td>".$barang['nama_produk']."</td>";
             echo "<td>".$barang['keterangan']."</td>";
             echo "<td>".$barang['jumlah']."</td>";
             echo "<td>".$barang['harga']."</td>";
