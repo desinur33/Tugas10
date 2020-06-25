@@ -32,7 +32,7 @@ if( mysqli_num_rows($query) < 1 ){
             <input type="hidden" name="id" value="<?php echo $barang['id_produk'] ?>" />
             <p>
                 <label>Nama Barang : </label>
-                <input type="text" name="namabrg" value="<?php echo $barang['namaProduk'] ?>">
+                <input type="text" name="namabrg" value="<?php echo $barang['nama_produk'] ?>">
             </p>
             <p>
                 <label>Keterangan : </label>
